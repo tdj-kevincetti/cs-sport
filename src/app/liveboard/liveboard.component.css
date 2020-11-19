@@ -1,0 +1,11 @@
+
+.head{
+  background-color: #ffff6b;
+  display: flex;
+  justify-content: space-around;
+}
+.board{
+  height: 1000px;
+  background-color:#d7472b ;
+  border: 10px solid #ffff6b;
+}

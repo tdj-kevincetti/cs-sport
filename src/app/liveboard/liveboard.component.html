@@ -1,0 +1,10 @@
+<!--ก็อป twitty มาใส่เลย เขียนแยกแต่ละแมตช์ไม่น่าจะทัน-->
+<div class="board">
+  <div class="head">
+    <h2>กระดานสนทนา</h2>
+  </div>
+  
+  <div class="container" *ngFor = "let board of boards">
+    <app-display-comment [board] = "board"></app-display-comment>
+  </div>
+</div>

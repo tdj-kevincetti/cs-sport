@@ -1,0 +1,11 @@
+.next{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffff6b;
+}
+
+.content{
+  height: 1000px;
+  background-color:#d7472b ;
+  
+}

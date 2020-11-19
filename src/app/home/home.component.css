@@ -1,0 +1,35 @@
+.header {
+  height: 80px;
+  background-color: #757575;
+
+
+  font-size: 40px;
+  padding-left: 4rem;
+  font-weight: bold;
+  
+  
+  
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a4a4a4
+
+;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 1px;
+  font-weight: bold;
+  
+  
+}
+.img{
+  
+  height: 45px;
+  
+}
+
+
+
+

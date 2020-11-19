@@ -1,0 +1,16 @@
+
+<div class="content">
+  <table class="result">
+  <tr>
+    <td>เวลา</td>
+    <td>ทีมเหย้า</td>
+    <td>ทีมเยือน</td>
+
+  </tr>
+  <tr class="murphy" *ngFor="let fb of footballs">
+    <td> {{fb.date}} </td> 
+    <td> {{fb.home}}</td>
+    <td> {{fb.away}}</td>
+  </tr>
+  </table>
+</div>
