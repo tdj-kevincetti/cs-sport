@@ -28,6 +28,6 @@ export class CommentComponent implements OnInit {
       this.form.value.name,
       this.form.value.msg
     )
-    this.router.navigate(['/'])
+    this.router.navigate(['/liveboard'])
   }
 }

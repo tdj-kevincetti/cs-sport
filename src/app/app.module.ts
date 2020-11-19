@@ -28,12 +28,12 @@ import { DisplayCommentComponent } from './display-comment/display-comment.compo
     BrowserModule, 
     FormsModule, 
     RouterModule.forRoot([
-    {path: "result",component:TodayresultComponent},
+    {path: "",component:TodayresultComponent},
     {path: "nextmatch",component:NextmatchComponent},
     {path: "todaymatch",component:TodaymatchComponent},
     {path: "liveboard",component:LiveboardComponent},
     {path: "comment",component:CommentComponent},
-    {path: "",component:LiveboardComponent}
+    {path: "liveboard",component:LiveboardComponent}
     ]),
     AngularFireModule.initializeApp(environment.firebaseConfig),
     ReactiveFormsModule,
