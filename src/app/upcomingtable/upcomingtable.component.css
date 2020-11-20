@@ -1,7 +1,7 @@
 .result{
   width: 100%;
   color: black;
-  background-color: #d7472b;
+  background-color: #e6c4bd;
   text-align: center;
   font-weight: bold;
 }
@@ -9,4 +9,5 @@
   border: 1px;
   border-radius: 5px;
   background-color: yellowgreen;
+  height: 50px;
 }
